@@ -1,14 +1,14 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet, Button } from "react-native";
 import BalancePanel from '../../components/BalancePanel/index';
 import EntryList from "../../components/EntryList/index";
 import EntrySummary from "../../components/EntrySummary/index";
-import NewEntry from "../NewEntry";
 
-const Main = () => {
+const Main = ({navigation}) => {
     return (
         <View style={styles.container}>
             <BalancePanel />
+            <Button title='Adicionar' onPress={() => navigation.navigate('NewEntry')} />
             <EntrySummary />
             <EntryList />
         </View>
