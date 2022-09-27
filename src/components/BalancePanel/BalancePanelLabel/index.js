@@ -12,14 +12,16 @@ export default function BalancePanelLabel() {
 
 const styles = StyleSheet.create({
     container : {
-        flex: 1,
+    //    flex: 1,
         alignItems: 'center',
         top: 30,
     },
     label: {
         fontSize: 18,
+        marginTop: 10,
     },
     value: {
         fontSize: 22,
+        marginBottom: 10,
     },
 });

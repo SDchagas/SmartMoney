@@ -11,8 +11,15 @@ export default function BalancePanelChart() {
 
 const styles = StyleSheet.create({
     container : {
-        flex: 1,
+   //     flex: 1,
     },
     label: {},
+
+    title: {
+      fontSize: 22,
+      fontWeight: 'bold',
+      marginTop:10,
+      marginBottom:10,  
+  },
     value: {},
 });

@@ -4,6 +4,7 @@ import React from 'react'
 export default function EntrySummaryList() {
   return (
     <View>
+      <Text style={styles.title}>Categorias</Text>
       <FlatList data={[
         {Key: 'alimentação'},
         {Key: 'cachaça'},
@@ -19,8 +20,14 @@ export default function EntrySummaryList() {
 
 const styles = StyleSheet.create({
   container : {
-      flex: 1,
+  //    flex: 1,
   },
   label: {},
+  title: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    marginTop:10,
+    marginBottom:10,
+},
   value: {},
 });

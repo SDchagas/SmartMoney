@@ -16,7 +16,7 @@ export default function BalancePanel() {
 
 const styles = StyleSheet.create({
     container : {
-        flex: 1,
+    //    flex: 1,
     },
     label: {},
     value: {},
