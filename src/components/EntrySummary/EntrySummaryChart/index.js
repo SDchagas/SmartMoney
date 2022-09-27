@@ -11,7 +11,7 @@ export default function EntrySummaryChart() {
 
 const styles = StyleSheet.create({
     container : {
- //       flex: 1,
+        flex: 1,
     },
     label: {},
     value: {},

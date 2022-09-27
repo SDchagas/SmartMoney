@@ -21,7 +21,7 @@ export default function EntryList() {
 
 const styles = StyleSheet.create({
     container: {
-      //  flex: 1,
+        flex: 1,
         padding: 10,
     },
     title: {

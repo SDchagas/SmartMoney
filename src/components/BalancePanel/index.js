@@ -4,10 +4,10 @@ import BalancePanelLabel from './BalancePanelLabel';
 import BalancePanelChart from './BalancePanelLabel/BalancePanelChart';
 
 
-export default function BalancePanel() {
+export default function BalancePanel({currentBalance}) {
   return (
     <View style={styles.container}>
-     <BalancePanelLabel/>
+     <BalancePanelLabel currentBalance={currentBalance}/>
      <BalancePanelChart />        
     </View>
   )
@@ -15,7 +15,7 @@ export default function BalancePanel() {
 
 const styles = StyleSheet.create({
     container : {
-    //    flex: 1,
+        flex: 1,
     },
     label: {},
     value: {},

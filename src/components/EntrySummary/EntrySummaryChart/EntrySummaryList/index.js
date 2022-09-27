@@ -20,7 +20,7 @@ export default function EntrySummaryList() {
 
 const styles = StyleSheet.create({
   container : {
-  //    flex: 1,
+     flex: 1,
   },
   label: {},
   title: {
