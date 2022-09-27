@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import BalancePanel from '../../components/BalancePanel/index';
+import EntryList from "../../components/EntryList/index";
 import EntrySummary from "../../components/EntrySummary/index";
 
 const Main = () => {
@@ -8,6 +9,7 @@ const Main = () => {
         <View style={styles.container}>
             <BalancePanel />
             <EntrySummary />
+            <EntryList />
         </View>
     )
 }

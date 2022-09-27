@@ -8,7 +8,7 @@ export default function BalancePanel() {
   return (
     <View style={styles.container}>
      <BalancePanelLabel/>
-    
+     <BalancePanelChart />    
      <Button title="Adicionar"/>      
     </View>
   )
