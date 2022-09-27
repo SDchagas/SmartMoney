@@ -1,10 +1,18 @@
-import { View, Text } from 'react-native'
+import { View, Text, StyleSheet, FlatList } from 'react-native'
 import React from 'react'
 
 export default function EntrySummaryList() {
   return (
-    <View style={styles.container}>
-      <Text>EntrySummaryList</Text>
+    <View>
+      <FlatList data={[
+        {Key: 'alimentação'},
+        {Key: 'cachaça'},
+        {Key: 'bar'},
+        {Key: 'pinga'},
+        {Key: 'cerveja'}
+      ]}
+      renderItem = {({item}) => <Text>{item.Key}</Text>}
+      ></FlatList>
     </View>
   )
 }

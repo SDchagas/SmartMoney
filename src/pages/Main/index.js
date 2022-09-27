@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import BalancePanelLabel from '../../components/BalancePanel/BalancePanelLabel/index';
 import BalancePanel from '../../components/BalancePanel/index';
-import BalancePanelChart from '../../components/BalancePanel/BalancePanelLabel/BalancePanelChart/index';
+import EntrySummary from "../../components/EntrySummary/index";
 
 const Main = () => {
     return (
         <View style={styles.container}>
-            <BalancePanel/>
+            <BalancePanel />
+            <EntrySummary />
         </View>
     )
 }
