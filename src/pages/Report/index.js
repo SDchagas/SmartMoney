@@ -33,8 +33,8 @@ const Report = () => {
           <Picker.Item label="Últimos 7 dias" />
         </Picker>
       </View>
-      <EntrySummary entriesGrouped={entriesGrouped} />
-      <EntryList entries={entries} />
+      <EntrySummary entriesGrouped={entradasAcumuladas} />
+      <EntryList entries={entradas} />
       <View>
         <Button title="Salvar" />
         <Button title="Fechar" />
